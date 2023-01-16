@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+}
+body{
+
+    background-color: darkslategray;
+}
+
+.static-weather{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:30px;
+}
+
+/* styling the cards */
+.weather-card{
+    width: 400px;
+    border-radius: 4px;
+    color:rgb(62, 57, 50);
+    background: linear-gradient(90deg, #2CD9FF, #7EFFB2); 
+    margin: 20px auto 0px auto;  
+    padding: 0px 20px 20px 20px;
+}
+
+.weather-card:hover{
+    background: linear-gradient(90deg, #2CD9FF, #7EFFB2);
+}
+
+.weather-card:active{
+    background: linear-gradient(90deg, plum, indigo);
+}
+
+.weather-icon{
+    width: 100px;
+}
+
+.top, .bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.bottom{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1rem;
+    margin:0;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+}
+
+.description{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 3px;
+    font-family:fantasy;
+}
+
+.temperature{
+    font-weight: 700;
+    font-size:55px ;
+    width: auto;
+    margin:10px 0;
+    letter-spacing: -3px;
+}
+
+.details{
+    padding-left:30%;
+    width:100%;
+}
+
+.row{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.label{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.value{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500;
+}
+
